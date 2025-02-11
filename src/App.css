@@ -56,12 +56,11 @@ body, html {
 
 .container {
   width: 100vw;
-  /* display: flex; */
   height: 100vh;
   flex-direction: column;
   overflow-y: auto;
 }
-/* Full height and width for each section */
+
 .section {
   width: 100vw;
   height: 100vh; 
@@ -82,4 +81,28 @@ body, html {
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+}
+
+.content-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  color: white;
 }
