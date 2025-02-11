@@ -1,5 +1,6 @@
 // import { useState, useEffect } from 'react'
 import { motion, useAnimation } from "framer-motion";
+import PropTypes from 'prop-types';
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import './App.css'
@@ -9,7 +10,9 @@ import lucy from "./assets/lucy.jpg";
 import city from "./assets/city.jpg";
 import suitcase from "./assets/suitcase_sunshine.jpg";
 
-
+FadeSection.propTypes = {
+  image: PropTypes.string.isRequired,
+};
 function FadeSection({ image }) {
   const controls = useAnimation();
   const { ref, inView } = useInView({ threshold: 0.3 });
@@ -39,22 +42,9 @@ function FadeSection({ image }) {
 
 function App() {
   const images = [marcus, city, uluru, lucy, suitcase];
-  // const images = [lucy, marcus];
 
   return (
     <div className="container">
-      {/* {images.map((image, index) => (
-        <div
-          key={index}
-          className="section"
-          style={{ 
-            backgroundImage: `url(${image})`,
-            minHeight: '100vh' 
-          }}
-        >
-        </div>
-
-      ))} */}
        {images.map((image, index) => (
         <FadeSection key={index} image={image} />
       ))}
