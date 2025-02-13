@@ -57,10 +57,10 @@ function App() {
       image: marcus,
       text: (
         <div>
-          <h1>Ruiqi Diao</h1>
+          <h1>Passenger 🧳 Ruiqi Diao</h1>
           <p>
-            A student at UNSW studying Advanced Mathematics and Computer Science, with the unique birthday of 2002-02-02.
-            I come from Shenzhen and can speak both Chinese and English. Nice to meet you all!
+            A student at UNSW studying Advanced Mathematics and Computer Science, with the unique birthday of 2002-02-02.<br></br>
+            I come from Shenzhen and can speak both Chinese and English. Nice to meet you all!<br></br>
             Passionate about exploring new things and contributing to the community.
           </p>
         </div>
@@ -70,7 +70,7 @@ function App() {
       image: city,
       text: (
         <div>
-          <h2>Contact</h2>
+          <h2>Boarding Pass ✈️ Contact</h2>
           <p>Email: ruiqi.richie.diao2020@gmail.com</p>
           <a href="https://github.com/ruiqidiaodrq" target="_blank" rel="noopener noreferrer" className="link-button">
             🔗 GitHub Profile
@@ -82,7 +82,7 @@ function App() {
       image: uluru,
       text: (
         <div>
-          <h2>Hobbies</h2>
+          <h2>Travel Essentials 🎒 Hobbies</h2>
           <p>🎸 Ukulele, 🎮 Rhythm Games, 🎬 Watching Movies</p>
           <p>Currently playing: Reverse:1999</p>
         </div>
@@ -92,7 +92,7 @@ function App() {
       image: lucy,
       text: (
         <div>
-          <h2>Social Media</h2>
+          <h2>Postcards from Moments 📬 Social Media</h2>
           <a href="https://www.facebook.com/profile.php?id=100026847710455" target="_blank" rel="noopener noreferrer" className="link-button">
             📘 Facebook
           </a>
@@ -109,7 +109,7 @@ function App() {
       image: suitcase,
       text: (
         <div>
-          <h2>Projects</h2>
+          <h2>Travel Logs 🌍 Projects</h2>
           <a href="https://math-3411.vercel.app/" target="_blank" rel="noopener noreferrer" className="link-button">
             🧮 MATH3411 Calculator
           </a>
